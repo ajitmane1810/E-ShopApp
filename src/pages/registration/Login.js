@@ -44,7 +44,7 @@ const Login = () => {
       }
   }
   return (
-    <div className=" flex justify-center items-center h-screen">
+    <div className=" flex justify-center items-center h-screen bg-gradient-to-br from-blue-200 to-purple-400">
       {loading && <Loader/>}
       <div className=" bg-gray-800 px-10 py-10 rounded-xl ">
         <div className="">
