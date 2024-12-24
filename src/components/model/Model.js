@@ -22,7 +22,7 @@ const Model = ({name, address, pincode, phoneNumber, setName, setAddress, setPin
         <button
           type="button"
           onClick={openModal}
-          className="w-full  bg-violet-600 py-2 text-center rounded-lg text-white font-bold bg-blue-600"
+          className="w-full  bg-violet-600 py-2 text-center rounded-lg text-white font-bold "
         >
           Buy Now
         </button>
@@ -131,7 +131,7 @@ const Model = ({name, address, pincode, phoneNumber, setName, setAddress, setPin
                           <button
                             onClick={()=>{buyNow();closeModal()} }
                             type="button"
-                            className="focus:outline-none w-full text-white bg-violet-600 bg-blue-600 hover:bg-violet-800  outline-0 font-medium rounded-lg text-sm px-5 py-2.5 "
+                            className="focus:outline-none w-full text-white bg-violet-600  hover:bg-violet-800  outline-0 font-medium rounded-lg text-sm px-5 py-2.5 "
                           >
                             Order Now
                           </button>

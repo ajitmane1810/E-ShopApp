@@ -195,7 +195,7 @@ function MyState (props) {
    
     <MyContext.Provider value={{mode,toggleMode,loading,setLoading,
       products,setProducts,addProduct,product,
-      editProduct,UpdateProduct,deleteProduct,order,user,
+      editProduct,UpdateProduct,deleteProduct,order,getOrderData,user,
       searchKey,setSearchKey,filterType,setFilterType,filterPrice,setFilterPrice
     }}>
         {/* using this data pass from parent to child directly */}

@@ -7,6 +7,7 @@ import { deleteFromCart } from "../../redux/cartSlice";
 import { toast } from "react-toastify";
 import { addDoc, collection } from "firebase/firestore";
 import { fireDB } from "../../firebase/FirebaseConfig";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const context = useContext(myContext);
@@ -51,6 +52,7 @@ const Cart = () => {
   const [pincode,setPincode] = useState("");
   const [phoneNumber,setPhoneNumber] = useState("");
 
+  const navigate = useNavigate();
   // 2.
   const buyNow = async()=>{
     // validation 
@@ -96,6 +98,7 @@ const Cart = () => {
       handler: function (response) {
           console.log(response)
           toast.success('Payment Successful');
+          navigate('/order')
 
           const paymentId = response.razorpay_payment_id;
           //store in firebase

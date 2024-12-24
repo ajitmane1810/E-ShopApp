@@ -69,7 +69,7 @@ const ProductInfo = () => {
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <img
               alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-44 object-cover object-center rounded"
+              className="h-1/2 lg:w-1/2 w-full lg:h-auto  object-cover object-center rounded"
               src={products.imgUrl}
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
