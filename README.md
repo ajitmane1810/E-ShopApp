@@ -1,3 +1,47 @@
+# E-ShopApp - React E-Commerce Website
+
+## Overview
+
+**E-ShopApp** is a fully-functional e-commerce application built using **ReactJS** for the front-end, **Tailwind CSS** for styling, and integrated with **Razorpay** for payment processing (TEST MODE). This app allows users to browse products, add items to their shopping cart, and complete transactions securely using Razorpay's payment gateway.
+
+The app is configured to run in **Test Mode** for testing transactions before switching to live mode.
+
+## Features
+- **Product Listing**: Displays a list of products fetched from a backend or API.
+- **Shopping Cart**: Users can add products to the shopping cart, view details, and modify quantities.
+- **Checkout**: Complete checkout process using Razorpay's test payment gateway.
+- **Payment Integration**: Integration with **Razorpay** for secure payments.
+- **Responsive Design**: Tailwind CSS ensures the app is mobile-friendly and looks great on all screen sizes.
+- **Search**: Allows users to search for products by name or category.
+- **User Authentication**: Login and registration features to manage user accounts.
+- **User Reviews**: Display and submit product reviews.
+- **State Management**: Using React Context API or Redux  to manage the state of the cart, user authentication, etc.
+
+## Technologies Used
+- **ReactJS**: For building the front-end user interface.
+- **Tailwind CSS**: For styling the application and ensuring a responsive design.
+- **React Router**: For handling routing between different pages.
+- **Redux** : For state management.
+- **Axios** : For making API requests to fetch product data and handle user authentication.
+- **Razorpay**: For handling online payments.
+- **Firebase** : For handling user authentication and storing product data .
+
+## Installation and Setup
+
+### Prerequisites
+
+Make sure you have the following installed:
+- **Node.js** (v14.x or later)
+- **npm** (or **yarn**) - comes with Node.js
+- **ReactJS** (via Create React App)
+
+### Steps to Run the Project Locally
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ajitmane1810/E-ShopApp.git
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
